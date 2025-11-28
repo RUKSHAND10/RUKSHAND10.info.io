@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>K P D Rukshan Dilantha Perera — Portfolio</title>
+  <meta name="description" content="Portfolio of K P D Rukshan Dilantha Perera — AP/AR Clerk & Admin Assistant. Resume, experience, contact." />
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <div class="brand">
+        <h1>K P D Rukshan Dilantha Perera</h1>
+        <p class="subtitle">AP / AR Clerk • Admin Assistant • Banking & Aircraft Detailing Experience</p>
+      </div>
+      <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-left">
+          <h2>Part-time AP/AR Clerk & Administration Support</h2>
+          <p>I’m currently enrolled in a BBA – Accounting at Yorkville University and seeking a part-time role in accounting or administration. I bring 9 years of banking experience and recent aircraft detailing & cleaning work. I’m organized, proficient with MS Office, and experienced with customer service and administrative operations. (Details from cover letter.)</p>
+          <div class="cta">
+            <a class="btn" href="resume.pdf" download>Download Resume (PDF)</a>
+            <a class="btn ghost" href="#contact">Contact Me</a>
+          </div>
+        </div>
+        <div class="hero-right card">
+          <ul class="quick-info">
+            <li><strong>Location:</strong> New Westminster, BC</li>
+            <li><strong>Phone:</strong> (604) 834-8994</li>
+            <li><strong>Email:</strong> <a href="mailto:rukshanpereraibr9@gmail.com">rukshanpereraibr9@gmail.com</a></li>
+            <li><strong>Availability:</strong> Mon, Tue, Thu–Sun 6am–10pm</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="container about">
+      <h3>About</h3>
+      <p>I have 9 years of experience as a banking officer where I sold and supported retail banking products (savings, chequing, credit cards, loans, leasing). I am skilled in MS Office, copy typing, meeting organization, inventory management, and general admin tasks. Since July 2024 I have worked as an aircraft detailer (washing, polishing, grooming). I also have prior cleaning and sanitation experience. I’m studying BBA in Accounting and seeking part-time work to complement my studies. (Source: cover letter.) :contentReference[oaicite:1]{index=1}</p>
+    </section>
+
+    <section id="experience" class="container experience">
+      <h3>Experience</h3>
+      <div class="timeline">
+        <div class="item">
+          <h4>Banking Officer — Retail Banking</h4>
+          <span class="muted">~9 years</span>
+          <p>Sold and administered banking products (savings, current accounts, credit cards, personal & housing loans, vehicle leasing). Gained strong customer service, sales, and operations experience.</p>
+        </div>
+
+        <div class="item">
+          <h4>Aircraft Detailer / Groomer</h4>
+          <span class="muted">Jul 2024 – Present</span>
+          <p>Aircraft washing, wax polishing, metal polishing, grooming and detailing tasks, ensuring high standards of cleanliness and finish.</p>
+        </div>
+
+        <div class="item">
+          <h4>Cleaning / Sanitation Worker</h4>
+          <span class="muted">6 months</span>
+          <p>Commercial and residential cleaning, sanitation procedures, indoor/outdoor cleaning and quality maintenance.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="container skills">
+      <h3>Skills</h3>
+      <ul class="skills-grid">
+        <li>Accounts Payable / Accounts Receivable basics</li>
+        <li>MS Office (Word, Excel, Outlook)</li>
+        <li>Customer service & retail banking</li>
+        <li>Aircraft detailing & cleaning</li>
+        <li>Inventory & meeting organization</li>
+        <li>Copy typing & administrative tasks</li>
+      </ul>
+    </section>
+
+    <section id="education" class="container education">
+      <h3>Education</h3>
+      <p><strong>BBA – Accounting (in progress)</strong><br>Yorkville University, New Westminster, BC</p>
+    </section>
+
+    <section id="contact" class="container contact">
+      <h3>Contact</h3>
+      <p>If you’d like to get in touch for a job opportunity, interview, or more information, please use the form or the direct contact details below.</p>
+
+      <div class="contact-grid card">
+        <form id="contactForm" class="contact-form">
+          <label for="name">Full name</label>
+          <input id="name" name="name" type="text" required>
+
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" required>
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+
+          <button type="submit" class="btn">Send Message</button>
+          <p id="contactResult" class="muted small" aria-live="polite"></p>
+        </form>
+
+        <div class="contact-info">
+          <p><strong>Address:</strong> 1255 Ewen Avenue, New Westminster, BC</p>
+          <p><strong>Phone:</strong> (604) 834-8994</p>
+          <p><strong>Email:</strong> <a href="mailto:rukshanpereraibr9@gmail.com">rukshanpereraibr9@gmail.com</a></p>
+          <p><strong>LinkedIn:</strong> <em>add your LinkedIn URL</em></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> K P D Rukshan Dilantha Perera • Built for GitHub Pages</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+:root{
+  --bg:#f8fafc;
+  --card:#ffffff;
+  --accent:#0b72ff;
+  --muted:#6b7280;
+  --text:#0f172a;
+  --radius:12px;
+  font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+}
+
+/* Reset basics */
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);line-height:1.5}
+.container{max-width:1000px;margin:0 auto;padding:28px}
+
+/* Header */
+.site-header{background:#fff;border-bottom:1px solid #e6edf3}
+.site-header .container{display:flex;align-items:center;justify-content:space-between;gap:20px}
+.brand h1{margin:8px 0;font-size:1.15rem}
+.subtitle{margin:0;color:var(--muted);font-size:0.95rem}
+.nav a{color:var(--muted);margin-left:18px;text-decoration:none;font-weight:600}
+.nav a:hover{color:var(--accent)}
+
+/* Hero */
+.hero{padding:36px 0}
+.hero-grid{display:grid;grid-template-columns:1fr 320px;gap:20px;align-items:start}
+.card{background:var(--card);border-radius:var(--radius);padding:18px;box-shadow:0 6px 18px rgba(15,23,42,0.06)}
+.hero-left h2{margin-top:0;color:var(--text)}
+.cta{margin-top:18px}
+.btn{display:inline-block;background:var(--accent);color:#fff;padding:10px 14px;border-radius:8px;text-decoration:none;font-weight:600}
+.btn.ghost{background:transparent;border:1px solid #dbeafe;color:var(--accent);margin-left:8px}
+.quick-info{list-style:none;padding:0;margin:0}
+.quick-info li{padding:6px 0;border-bottom:1px dashed #eef2ff;color:var(--muted)}
+.muted{color:var(--muted)}
+
+/* Sections */
+h3{margin-top:0}
+.about p{max-width:75ch}
+.timeline .item{margin-bottom:18px}
+.skills-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:8px;list-style:none;padding:0}
+.skills-grid li{background:#fff;padding:12px;border-radius:10px;box-shadow:0 6px 14px rgba(15,23,42,0.04)}
+
+/* Contact */
+.contact-grid{display:grid;grid-template-columns:1fr 320px;gap:20px}
+.contact-form label{display:block;margin-top:12px;font-size:0.9rem}
+.contact-form input,.contact-form textarea{width:100%;padding:10px;border-radius:8px;border:1px solid #e6edf3;margin-top:6px}
+.contact-form button{margin-top:12px}
+.contact-info p{margin:8px 0;color:var(--muted);font-size:0.95rem}
+
+/* Footer */
+.site-footer{padding:18px 0;text-align:center;color:var(--muted);font-size:0.95rem}
+
+/* Responsive */
+@media (max-width:900px){
+  .hero-grid, .contact-grid{grid-template-columns:1fr}
+  .nav{display:none}
+  .container{padding:18px}
+}
+// Small interactions
+document.getElementById('year').textContent = new Date().getFullYear();
+
+// Contact form: simply simulate sending (GitHub Pages can't run server side).
+document.getElementById('contactForm').addEventListener('submit', function(e){
+  e.preventDefault();
+  const name = document.getElementById('name').value.trim();
+  const result = document.getElementById('contactResult');
+  if(!name){
+    result.textContent = 'Please enter your name.';
+    return;
+  }
+  result.textContent = 'Thanks, ' + (name.split(' ')[0] || 'there') + '! Your message was saved locally. To enable real messaging, add a form service (see README).';
+  result.style.color = '#065f46';
+  // Reset fields after a short delay
+  setTimeout(()=> {
+    document.getElementById('contactForm').reset();
+  }, 1400);
+});
